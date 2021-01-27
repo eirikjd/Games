@@ -4,7 +4,6 @@ screen_width = 10
 screen_height = 10
 ss = [(screen_width,i) for i in range(screen_height)]
 print(ss)
-s
 
 def long_words(lst):
     return [word for word in lst if len(word) > 5]
